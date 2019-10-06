@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from "./components/header/Navbar"
-import LeftSide from "./components/container/leftSide"
+import Container from './components/container/container';
 
 class App extends Component {
+
   render() {
+      
     return (
       <div>
         <Navbar />
-       <LeftSide />
+        < Container />
 
 
           
