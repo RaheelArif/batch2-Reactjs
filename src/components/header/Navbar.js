@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import {Link } from "react-router-dom"
 
 class Navbar extends Component{
@@ -10,6 +11,8 @@ class Navbar extends Component{
              
                 <Link to="/price">price</Link>
                 <Link to="/about">About Us</Link>
+                <Link to="/login">Login</Link>
+                <Link to="/signup">Sign Up</Link>
             </div>
         )
     }
